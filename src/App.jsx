@@ -9,7 +9,7 @@ function App() {
       <h1>Counter App</h1>
 
       <div className="card">
-        <p>count: {count}</p>
+        <p>Count: {count}</p>
         <button onClick={() => setCount((count) => count + 1)}>
           Increment
         </button>
